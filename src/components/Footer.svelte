@@ -3,15 +3,15 @@
 </script>
 
 <style>
-	@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+	/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"); */
 
 .footer {
 	margin-top		: 100px;
 	position		: relative;
 	width			: 94.7%;
-	background		: #3586ff;
+	background		: #df1e68;
 	min-height		: 100px;
-	padding			: 20px 50px;
+	padding			: 10px 50px;
 	display			: flex;
 	justify-content	: center;
 	align-items		: center;
@@ -19,17 +19,17 @@
 }
 
 .social-icon,
-.menu {
+/* .menu {
 	position		: relative;
 	display			: flex;
 	justify-content	: center;
 	align-items		: center;
 	margin			: 10px 0;
 	flex-wrap		: wrap;
-}
+} */
 
 .social-icon__item,
-.menu__item { list-style: none }
+/* .menu__item { list-style: none } */
 
 .social-icon__link {
 	font-size		: 2rem;
@@ -39,7 +39,7 @@
 	transition		: 0.5s;
 }
 .social-icon__link:hover { transform: translateY(-10px) }
-
+/*
 .menu__link {
 	font-size		: 1.2rem;
 	color			: #fff;
@@ -51,7 +51,7 @@
 	font-weight		: 300;
 }
 
-.menu__link:hover { opacity: 1 }
+.menu__link:hover { opacity: 1 } */
 
 .footer p {
 	color			: #fff;
@@ -66,7 +66,7 @@
 	left			: 0;
 	width			: 100%;
 	height			: 100px;
-	background		: url("https://i.ibb.co/wQZVxxk/wave.png");
+	background		: url("https://res.cloudinary.com/dbgzsikcs/image/upload/v1680894462/instapetsgram/wave_vqrbax.png");
 	background-size	: 1000px 100px;
 }
 
@@ -139,12 +139,12 @@
 			</a>
 		</li>
     </ul>
-    <ul class="menu">
+    <!-- <ul class="menu">
 		<li class="menu__item"><a class="menu__link" href="a">Home</a></li>
 		<li class="menu__item"><a class="menu__link" href="a">About</a></li>
 		<li class="menu__item"><a class="menu__link" href="a">Services</a></li>
 		<li class="menu__item"><a class="menu__link" href="a">Team</a></li>
 		<li class="menu__item"><a class="menu__link" href="a">Contact</a></li>
-    </ul>
-    <p>&copy;{year} Pugstagram</p>
+    </ul> -->
+    <p>&copy;{year} Instapetsgram</p>
 </footer>

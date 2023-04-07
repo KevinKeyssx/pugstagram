@@ -6,7 +6,13 @@
 	<div class="Header-container">
 		<div class="Header-content">
 			<div class="Header-logo">
-				<h1>Pugstagram</h1>
+				<!-- <h1>d</h1> -->
+				<img
+					src="https://res.cloudinary.com/dbgzsikcs/image/upload/v1680893663/instapetsgram/WhatsApp_Image_2023-04-07_at_2.47.58_PM-removebg-preview_dn45ww.png"
+					alt="logo"
+					width="250"
+					height="70"
+				>
 			</div>
 
 			<div class="Header-nav">
@@ -62,7 +68,7 @@
 		cursor: pointer;
 	}
 
-	h1 {
+	/* h1 {
 		padding: 0;
 		margin: 0;
 		font-size: 28px;
@@ -85,5 +91,5 @@
 		position: absolute;
 		top: 0;
 		left: 0;
-	}
+	} */
 </style>
