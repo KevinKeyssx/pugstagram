@@ -1,6 +1,6 @@
 <script>
-	import { goto } from "@sapper/app"
-	import { likeCount } from "../store/store";
+	import { goto } 		from "@sapper/app"
+	import { likeCount } 	from "../store/store";
 
 	export let segment;
 
