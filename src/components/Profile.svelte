@@ -4,15 +4,21 @@
 </script>
 
 <div class="Profile">
-	<div class="Profile-content">
-		<div class="Profile-avatar">
-			<img src="https://placekitten.com/200/200" alt="avatar" />
+	<a
+		href="profile"
+		rel="prefetch"
+	>
+
+		<div class="Profile-content">
+			<div class="Profile-avatar">
+				<img src="https://placekitten.com/200/200" alt="avatar" />
+			</div>
+			<div class="Profile-info">
+				<h2>{nickname}</h2>
+				<span>{name}</span>
+			</div>
 		</div>
-		<div class="Profile-info">
-			<h2>{nickname}</h2>
-			<span>{name}</span>
-		</div>
-	</div>
+	</a>
 </div>
 
 <style>
@@ -37,5 +43,9 @@
 	.Profile-info span {
 		font-size: 12px;
 		font-weight: normal;
+	}
+
+	a {
+		text-decoration: none;
 	}
 </style>

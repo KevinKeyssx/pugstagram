@@ -1,2 +1,7 @@
 node_modules
 dist
+.env
+
+# Sapper
+src/node_modules
+__sapper__

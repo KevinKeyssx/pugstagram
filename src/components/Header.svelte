@@ -1,18 +1,29 @@
 <script>
+	import { goto } from "@sapper/app"
 	import { likeCount } from "../store/store";
+
+	export let segment;
+
+	const navigateHome = async () => {
+		await goto("/");
+	};
+
 </script>
 
 <div class="Header">
 	<div class="Header-container">
 		<div class="Header-content">
 			<div class="Header-logo">
-				<!-- <h1>d</h1> -->
+
 				<img
-					src="https://res.cloudinary.com/dbgzsikcs/image/upload/v1680893663/instapetsgram/WhatsApp_Image_2023-04-07_at_2.47.58_PM-removebg-preview_dn45ww.png"
-					alt="logo"
-					width="250"
-					height="70"
+					src			= "https://res.cloudinary.com/dbgzsikcs/image/upload/v1680893663/instapetsgram/WhatsApp_Image_2023-04-07_at_2.47.58_PM-removebg-preview_dn45ww.png"
+					alt			= "logo"
+					width		= "250"
+					height		= "70"
+					on:click	= { navigateHome }
+					on:keypress	= { navigateHome }
 				>
+
 			</div>
 
 			<div class="Header-nav">
@@ -24,7 +35,15 @@
 
 					</li>
 
-					<li><i class="fas fa-user-alt" /></li>
+					<li>
+						<a
+							href			= "profile"
+							rel				= "prefetch"
+							aria-current	= { segment === 'profile' ? 'page' : undefined }
+						>
+							<i class="fas fa-user-alt"/>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -68,28 +87,7 @@
 		cursor: pointer;
 	}
 
-	/* h1 {
-		padding: 0;
-		margin: 0;
-		font-size: 28px;
-		color: black;
-		font-family: "Pacifico", cursive;
-		cursor: pointer;
-		position: relative;
-		background: #fff;
-		mix-blend-mode: multiply;
-		display: inline-block;
+	[aria-current] i {
+		color: #bc1888;
 	}
-
-	h1:before {
-		content: "";
-		display: block;
-		width: 100%;
-		height: 100%;
-		background: radial-gradient(circle at top left, #f09433, #bc1888);
-		mix-blend-mode: screen;
-		position: absolute;
-		top: 0;
-		left: 0;
-	} */
 </style>
