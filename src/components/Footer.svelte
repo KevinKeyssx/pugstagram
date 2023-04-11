@@ -18,6 +18,12 @@
 	flex-direction	: column;
 }
 
+a {
+	text-decoration	: none;
+	color			: rgb(90, 5, 170);
+	cursor			: pointer;
+}
+
 .social-icon,
 /* .menu {
 	position		: relative;
@@ -57,7 +63,7 @@
 	color			: #fff;
 	margin			: 15px 0 10px 0;
 	font-size		: 1rem;
-	font-weight		: 300;
+	font-weight		: 400;
 }
 
 .wave {
@@ -146,5 +152,13 @@
 		<li class="menu__item"><a class="menu__link" href="a">Team</a></li>
 		<li class="menu__item"><a class="menu__link" href="a">Contact</a></li>
     </ul> -->
-    <p>&copy;{year} Instapetsgram <a href="https://profile-kevinkeyssx.vercel.app/">kevinkeyssx</a></p>
+    <p>
+		&copy;{year} Instapetsgram | by
+		<a
+			href="https://profile-kevinkeyssx.vercel.app/"
+			target="_blank"
+		>
+			kevinkeyssx
+		</a>
+	</p>
 </footer>
