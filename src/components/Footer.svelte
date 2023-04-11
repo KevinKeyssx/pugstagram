@@ -146,5 +146,5 @@
 		<li class="menu__item"><a class="menu__link" href="a">Team</a></li>
 		<li class="menu__item"><a class="menu__link" href="a">Contact</a></li>
     </ul> -->
-    <p>&copy;{year} Instapetsgram</p>
+    <p>&copy;{year} Instapetsgram <a href="https://profile-kevinkeyssx.vercel.app/">kevinkeyssx</a></p>
 </footer>
